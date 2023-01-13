@@ -1,20 +1,21 @@
 <template>
     <div id="footer">
-        <a href = "https://www.instagram.com/soapytheham/" target = "_blank" rel="noopener noreferrer">Instagram </a>
-        <p>Test drive</p>
+        
     </div>
 </template>
 
 <style>
     #footer{
         height:60px;
-        display:flex;
+        display:block;
         flex-direction:column;
-        font-family:Roboto;
+        font-family: "Poppins", sans-serif;
         justify-content: center;
         align-items: center;
         position: fixed;
         bottom:0;
-        width: 100%
+        width: 100%;
+        background-color: rgb(82, 97, 107);
+        color: rgb(240, 245, 249);
     }
 </style>
