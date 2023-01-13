@@ -26,7 +26,7 @@
         /*background-color: rgb(185, 217, 235);*/
         background-image: linear-gradient(to top, rgba(108, 172, 228, 0.7), rgba(108, 172, 228, 0.7)), url(../static/lowlib.jpg);
         background-color: #cccccc;
-        height: 50vh;
+        height: 75vh;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -52,7 +52,7 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -75%);
         color: white;
     }
 

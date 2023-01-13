@@ -1,16 +1,12 @@
 <template>
     <div>
-         <!--navigation bar-->
          <nav class="navbar" id="navbar-about">
             <NuxtLink to="/">About</NuxtLink>
             <NuxtLink to="/engineering">Engineering</NuxtLink>
             <NuxtLink to="/photography">Photography</NuxtLink>
             <n-link to="/résumé">Résumé</n-link>        
-            <NuxtLink to="/contact">Contact</NuxtLink>  
-            
+            <NuxtLink to="/contact">Contact</NuxtLink>        
          </nav>
-  
-       <!--dropdowns-->
     </div>
   </template>
   
@@ -28,11 +24,11 @@
 
     .navbar{
        background-color: rgb(255, 255, 255);
-       position: relative;
        max-width: 100%;
        padding: 14px;
        font-family: 'Poppins', sans-serif;
        text-align: center;
+       position: relative;
     }
   
     a:link, a:visited{

@@ -12,6 +12,15 @@
                 </nav>          
             </div>
         </div>
+        <div id="sticky">
+            <nav class="navbar" id="navbar-about">
+                <NuxtLink to="/">About</NuxtLink>
+                <NuxtLink to="/engineering">Engineering</NuxtLink>
+                <NuxtLink to="/photography">Photography</NuxtLink>
+                <n-link to="/résumé">Résumé</n-link>        
+                <NuxtLink to="/contact">Contact</NuxtLink>        
+            </nav>
+        </div>
     </div>
 </template>
 
@@ -24,6 +33,35 @@
 
     a{
         scroll-behavior: smooth;
+    }
+
+    .navbar{
+       background-color: rgb(255, 255, 255);
+       max-width: 100%;
+       padding: 14px;
+       font-family: 'Poppins', sans-serif;
+       text-align: center;
+       position: fixed;
+       top: 100;
+    }
+  
+    a:link, a:visited{
+      text-align: center;
+      padding: 14px 16px;
+      color: rgb(30, 32, 34);
+      text-decoration: none;
+      font-size: 16px;
+    }
+    a:hover, a:active{
+       font-weight: bold;
+    }
+  
+    .navbar a.nuxt-link-exact-active{
+      text-align: center;
+      padding: 14px 16px;
+      font-size: 16px;
+      color: rgb(30, 32, 34);
+      font-weight:bold;
     }
 
     .text-underline {
@@ -68,16 +106,6 @@
         font-family: "Poppins", sans-serif;
     }
 
-    /*.hero-text .material-symbols-outlined {
-        font-size: 100px;
-        position: absolute;
-        transform: translate(-50%, 25%);
-        font-variation-settings:
-        'FILL' 0,
-        'wght' 400,
-        'GRAD' 0,
-        'opsz' 48
-    }*/
 </style>
 
 <script>
