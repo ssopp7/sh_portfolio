@@ -2,10 +2,10 @@
     <div>
          <nav class="navbar" id="navbar-about">
             <NuxtLink to="/">About</NuxtLink>
-            <NuxtLink to="/engineering">Engineering</NuxtLink>
-            <NuxtLink to="/photography">Photography</NuxtLink>
+            <NuxtLink to="/engineering">Making</NuxtLink>
+            <NuxtLink to="projects">Projects</NuxtLink>
+            <NuxtLink to="/photography">I ♥ Birds</NuxtLink>
             <n-link to="/résumé">Résumé</n-link>        
-            <NuxtLink to="/contact">Contact</NuxtLink>        
          </nav>
     </div>
   </template>

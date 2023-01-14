@@ -4,7 +4,7 @@
         <div class="hero-image-2">
             <div class="rect">      
                 <h1 id="columbia">I am currently a freshman at Columbia University's School of Engineering and Applied Sciences.
-                    <a href="/#section-3" id="ScrollDown">
+                    <a href="/#passions" id="ScrollDown">
                         <i class="material-symbols-outlined">expand_more</i>
                     </a>
                 </h1>

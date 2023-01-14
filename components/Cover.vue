@@ -15,10 +15,10 @@
         <div id="sticky">
             <nav class="navbar" id="navbar-about">
                 <NuxtLink to="/">About</NuxtLink>
-                <NuxtLink to="/engineering">Engineering</NuxtLink>
-                <NuxtLink to="/photography">Photography</NuxtLink>
-                <n-link to="/résumé">Résumé</n-link>        
-                <NuxtLink to="/contact">Contact</NuxtLink>        
+                <NuxtLink to="/engineering">Making</NuxtLink>
+                <NuxtLink to="projects">Projects</NuxtLink>
+                <NuxtLink to="/photography">I ♥ Birds</NuxtLink>
+                <n-link to="/résumé">Résumé</n-link>     
             </nav>
         </div>
     </div>
@@ -41,8 +41,9 @@
        padding: 14px;
        font-family: 'Poppins', sans-serif;
        text-align: center;
-       position: fixed;
-       top: 100;
+       position: sticky;
+       top: 0;
+       align-self: start;
     }
   
     a:link, a:visited{
@@ -105,6 +106,7 @@
         color: white;
         font-family: "Poppins", sans-serif;
     }
+
 
 </style>
 

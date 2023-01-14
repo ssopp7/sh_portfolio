@@ -5,7 +5,8 @@
     <Cover/>
     <Columbia/>
     <Passion/>
-
+    <Map/>
+    <Footer/>
   </div>
 </template>
 

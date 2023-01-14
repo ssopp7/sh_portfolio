@@ -6,16 +6,16 @@
 
 <style>
     #footer{
-        height:60px;
+        height:20vh;
         display:block;
         flex-direction:column;
         font-family: "Poppins", sans-serif;
         justify-content: center;
         align-items: center;
-        position: fixed;
+        position: relative;
         bottom:0;
         width: 100%;
-        background-color: rgb(82, 97, 107);
-        color: rgb(240, 245, 249);
+        background-color: rgb(255, 255, 255);
+        color: rgb(40, 40, 40);
     }
 </style>
